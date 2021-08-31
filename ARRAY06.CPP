@@ -17,20 +17,20 @@
         int  i;
 
         for(i=0;  i<N; i++) 
-		   {
+	   {
             printf("Ingrese el valor %d:\n", i);
             scanf("%f",  &x[i]);
            }
         if(x[4]> 0)
-		  {   
+	   {   
             printf( "La quinta Posicion es Positiva\n\n");
-          }
-	    if(x[0]< 0)
-	      {
+           }
+	 if(x[0]< 0)
+	   {
             printf("La primera Posicion es Negativo\n\n");
-          }
-	    if(x[N-1]== 0)
-	       {
+           }
+	 if(x[N-1]== 0)
+	   {
             printf( "La ultima Posicion es Cero\n\n");
            }     
       getch();
