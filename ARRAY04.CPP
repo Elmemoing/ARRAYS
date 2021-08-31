@@ -15,17 +15,17 @@
 	  int numero[N], contador, mayor;
 	  for (contador = 0; contador < N; contador++) 
 	       {
-            printf("Dime un valor : ");
-            scanf("%i",&numero[contador]);
-           }
+            	 printf("Dime un valor : ");
+            	 scanf("%i",&numero[contador]);
+               }
 	  for (contador = 0; contador < N; contador++) 
-	      {
-            if ((numero[contador] > mayor) || (contador == 0))
-                {
-                  mayor = numero[contador];
-                }
-          }
+	       {
+          	 if ((numero[contador] > mayor) || (contador == 0))
+                     {
+                      mayor = numero[contador];
+                     }
+       	       }
         printf("El mayor es : %i \n\n", mayor);
         system("pause");
-    return 0;
+        return 0;
     }         
